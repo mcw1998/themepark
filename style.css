@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #6be6ff;
+}
+
+header {
+    background-color: #2a3366;
+    color: #fffdfd;
+    padding: 11px 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fffdfd;
+    margin: 0 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav #cart{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #21c1ca;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fffffffd;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background-color: #d0cece;
+}
+
+.main {
+    width: 75%;
+    padding: 20px;
+}
+
+.FAQ-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e3e3;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fffffffd;
+    cursor: pointer;
+}
+
+.FAQ-question:hover {
+    background-color: #d0cece;
+}
+
+.contact-info {
+    padding: 20px;
+    background-color: #fffffffd;
+    margin: 20px 0;
+    border: 1px solid #e5e3e3;    
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #2a3366;
+    color: #fffdfd;
+    text-align: center;
+    padding: 10px 90px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.f-list {
+    list-style: none;
+    margin-right: 130px;
+}
+
+.f-list:last-child {
+    margin-right: 0; 
+}
+
+.f-list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 960px) {
+    header {
+    background-color: #664F2A;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+}  */
